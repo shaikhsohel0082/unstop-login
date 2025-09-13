@@ -32,8 +32,7 @@ Follow the steps below to run the project locally:
    npm run dev
    ```
 
-   The app will be available at: [http://localhost:5173](http://localhost:5173)
-
+  
 ---
 
 ## 🔑 Test Login Credentials
