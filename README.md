@@ -6,6 +6,7 @@ The app demonstrates authentication flow using predefined credentials.
 ---
 
 ## 🛠️ Tech Stack
+
 - ⚛️ **React (Vite)**
 - 🎨 **SCSS Modules**
 - 📘 **TypeScript**
@@ -17,12 +18,14 @@ The app demonstrates authentication flow using predefined credentials.
 Follow the steps below to run the project locally:
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/shaikhsohel0082/unstop-login.git
    cd unstop-login
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
@@ -32,19 +35,26 @@ Follow the steps below to run the project locally:
    npm run dev
    ```
 
-  
 ---
 
 ## 🔑 Test Login Credentials
 
 Use the following credentials to log in:
 
-- **Username:** `emilys`  
+- **Username:** `emilys`
 - **Password:** `emilyspass`
 
 ---
 
+## Live Demo
+
+[https://unstop-auth-login.netlify.app/](https://unstop-auth-login.netlify.app/)
+
+---
+
+
 ## 📂 Project Structure
+
 ```
 unstop-login/
 ├── src/              # Application source code
@@ -57,7 +67,8 @@ unstop-login/
 
 ---
 
-
 ## 👨‍💻 Author
-**Sohel Shaikh**  
-- GitHub: [shaikhsohel0082](https://github.com/shaikhsohel0082)  
+
+**Sohel Shaikh**
+
+- GitHub: [shaikhsohel0082](https://github.com/shaikhsohel0082)
