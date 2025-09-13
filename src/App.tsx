@@ -9,7 +9,7 @@ import { useState } from "react";
 import type { LoginRes } from "./service/auth";
 function App() {
   const [userData, setUserData] = useState<LoginRes | undefined>(undefined);
-  const token = localStorage.getItem("token") + "";
+  const token = localStorage.getItem("token") || "";
   return (
     <AppContext.Provider value={{ userData, setUserData }}>
       <ToastContainer position="top-right" autoClose={1500} />
@@ -17,9 +17,7 @@ function App() {
         <Routes>
           <Route
             path="/"
-            element={
-              <Navigate to={token?.trim() !== "" ? `/home` : "/auth/login"} />
-            }
+            element={<Navigate to={!token ? "/auth/login" : `/home`} />}
           />
           <Route path="/auth/login" element={<Login />} />
           <Route
