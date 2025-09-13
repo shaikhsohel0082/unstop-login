@@ -1,0 +1,88 @@
+.home {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .heading1 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 136%;
+    letter-spacing: 0%;
+    margin: 0;
+  }
+
+  .heading2 {
+    font-family: Poppins;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 136%;
+    letter-spacing: 0%;
+    color: #6358dc;
+  }
+
+  .userCard {
+    opacity: 1;
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid #e2e2e2;
+    box-shadow: 0px 4px 14px 0px #000000a6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .profile{
+        border-radius: 50%;
+    }
+    .username {
+      font-family: Inter;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 16px;
+      leading-trim: NONE;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-align: center;
+      vertical-align: middle;
+      color: #6358DC;
+      margin: 0;
+    }
+
+    .email {
+      font-family: Inter;
+      font-weight: 500;
+      font-style: Medium;
+      font-size: 12px;
+      leading-trim: NONE;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-align: center;
+      vertical-align: middle;
+      margin: 0;
+    }
+
+    .logoutBtn {
+      background-color: #6358dc;
+      font-family: Inter;
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 12px;
+      leading-trim: NONE;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-align: center;
+      vertical-align: middle;
+      border: none;
+      border-radius: 10px;
+      color: #FFFFFF;
+      padding:10px 20px;
+    }
+  }
+}

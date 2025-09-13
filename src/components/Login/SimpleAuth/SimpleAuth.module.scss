@@ -1,0 +1,26 @@
+  .authDiv {
+        border: 1px solid #E2E2E2;
+        background: #FFFFFF;
+        border-radius: 6px;
+        box-shadow: 0px 4px 14px 0px #0000000D;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        width: 681;
+        margin-bottom: 8px;
+        padding: 21px 0;
+
+        .loginText {
+            font-family: Poppins;
+            font-weight: 500;
+            font-style: Medium;
+            font-size: 16px;
+            line-height: 136%;
+            letter-spacing: 0%;
+            margin-left: 5px;
+
+        }
+
+        
+    }

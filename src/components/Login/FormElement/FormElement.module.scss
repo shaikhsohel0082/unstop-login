@@ -1,0 +1,45 @@
+.formEle {
+  border-radius: 16px;
+  opacity: 1;
+  background: #f4f4f4;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding: 16px;
+  width: 100%;
+  .formMain {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .inputEle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+    .label {
+      font-family: Poppins;
+      font-weight: 400;
+      font-size: 12px;
+      leading-trim: NONE;
+      line-height: 136%;
+      letter-spacing: 0%;
+    }
+
+    .inputBox {
+      border: none;
+      background: transparent;
+      outline: none;
+      font-family: Poppins;
+      font-weight: 700;
+      font-size: 16px;
+      leading-trim: NONE;
+      line-height: 100%;
+      letter-spacing: 0%;
+    }
+  }
+}
+.errorBorder{
+    border:1px solid red;
+}
