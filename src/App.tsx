@@ -23,7 +23,7 @@ function App() {
           <Route
             path="/home"
             element={
-              token?.trim() !== "" ? <Home /> : <Navigate to={"/auth/login"} />
+              !token ?<Navigate to={"/auth/login"} />: <Home /> 
             }
           />
         </Routes>
